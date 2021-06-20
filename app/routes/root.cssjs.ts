@@ -23,6 +23,9 @@ export const globalStyles = global({
     padding: 0,
     position: "relative",
   },
+  "h1, h2, h3, h4, h5, h6, p": {
+    color: "$onBackground",
+  },
   "html, body": {
     width: "100%",
     height: "100%",

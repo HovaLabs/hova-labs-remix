@@ -1,7 +1,6 @@
 import { styled } from "../stitches";
 
 export const Text = styled("p", {
-  color: "$onBackground",
   lineHeight: "120%",
   fontSize: "16px",
   "@bp1": {
