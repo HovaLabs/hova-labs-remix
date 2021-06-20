@@ -18,6 +18,11 @@ function Document({ children }: { children: React.ReactNode }) {
       <head>
         <meta charSet="utf-8" />
         <link rel="icon" href="/favicon.png" type="image/png" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap"
+          rel="stylesheet"
+          type="text/css"
+        />
         <Meta />
         <Links />
       </head>

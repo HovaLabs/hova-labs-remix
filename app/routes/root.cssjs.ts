@@ -7,6 +7,7 @@ export const globalStyles = global({
     margin: 0,
     padding: 0,
     boxSizing: "border-box",
+    fontFamily: "Oxygen, sans-serif",
   },
   div: {
     alignItems: "stretch",

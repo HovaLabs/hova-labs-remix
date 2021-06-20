@@ -1,6 +1,9 @@
 import { styled } from "../design-system";
 
-export const Container = styled("div", {});
+export const Container = styled("div", {
+  height: "100%",
+  overflow: "auto",
+});
 
 export const TopNav = styled("div", {
   position: "fixed",

@@ -23,7 +23,6 @@ export default function Index() {
         <Text font="titleLarge">Whassup?</Text>
       </S.TopNav>
       <S.Body>
-        <Text font="titleLarge">Whassup?</Text>
         asdfhjkalskdjhflaksjdhflakjsdhflkjasdhl
         asdfhjkalskdjhflaksjdhflakjsdhflkjasdhl
         asdfhjkalskdjhflaksjdhflakjsdhflkjasdhl

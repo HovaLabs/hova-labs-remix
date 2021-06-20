@@ -2,34 +2,41 @@ import { styled } from "../stitches";
 
 export const Text = styled("p", {
   color: "$onBackground",
+  lineHeight: "120%",
+  fontSize: "16px",
+  "@bp1": {
+    fontSize: "18px",
+  },
+  "@bp2": {
+    fontSize: "24px",
+  },
   variants: {
     font: {
       titleLarge: {
-        as: "h1",
-        fontSize: "20px",
+        fontSize: "35px",
         "@bp1": {
-          fontSize: "30px",
+          fontSize: "46px",
         },
         "@bp2": {
-          fontSize: "40px",
+          fontSize: "70px",
         },
       },
       titleMedium: {
-        fontSize: "30px",
+        fontSize: "25px",
         "@bp1": {
-          fontSize: "20px",
+          fontSize: "32px",
         },
         "@bp2": {
-          fontSize: "15px",
+          fontSize: "50px",
         },
       },
       titleSmall: {
         fontSize: "20px",
         "@bp1": {
-          fontSize: "14px",
+          fontSize: "22px",
         },
         "@bp2": {
-          fontSize: "8px",
+          fontSize: "30px",
         },
       },
     },
