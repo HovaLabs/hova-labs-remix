@@ -1,5 +1,1 @@
-/* 
- * when the user visits this page, this style will apply, when they leave, it
- * will get unloaded, so don't worry so much about conflicting styles between
- * pages!
- */
+--stitches{--:2 c-PJLV c-brMlQk}@media{.c-brMlQk{position:fixed;top:0;display:flex;width:100%;height:64px;justify-content:space-between;align-items:center;background:var(--colors-background);z-index:1000}}
