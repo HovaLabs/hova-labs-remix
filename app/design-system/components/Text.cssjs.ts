@@ -1,7 +1,7 @@
 import { styled } from "../stitches";
 
 export const Text = styled("p", {
-  lineHeight: "120%",
+  lineHeight: "150%",
   fontSize: "16px",
   "@bp1": {
     fontSize: "18px",

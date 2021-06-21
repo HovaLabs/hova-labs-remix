@@ -62,9 +62,8 @@ function Document({ children }: { children: React.ReactNode }) {
           }}
         />
         {children}
-
-        {/* <Scripts />
-        {process.env.NODE_ENV === "development" && <LiveReload />} */}
+        {process.env.NODE_ENV === "development" ? <Scripts /> : null}
+        {process.env.NODE_ENV === "development" ? <LiveReload /> : null}
       </body>
     </html>
   );
