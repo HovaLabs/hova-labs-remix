@@ -92,7 +92,8 @@ export const AboutTextContainer = styled("div", {
 });
 export const AboutImageContainer = styled("div", {
   flexBasis: "50%",
-  minWidth: "280px",
+  flexGrow: 1,
+  minWidth: "240px",
   maxHeight: "500px",
   "::before": {
     content: "",
@@ -113,7 +114,7 @@ export const AboutImageContainer = styled("div", {
   },
 });
 export const AboutImage = styled(Image, {
-  minWidth: "280px",
+  minWidth: "240px",
   maxWidth: "100%",
   maxHeight: "500px",
   alignSelf: "center",
