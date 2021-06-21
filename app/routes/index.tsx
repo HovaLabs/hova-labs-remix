@@ -27,6 +27,18 @@ export default function Index() {
         <S.HeroContainer>
           <Image src={images.hero} />
         </S.HeroContainer>
+        <S.AboutContainer>
+          <Text>ABOUT</Text>
+          <Text font="titleLarge">The Hovas</Text>
+          <Text>
+            We are two Nebraska nerds currently living in the SF Bay Area who
+            use diverse backgrounds in art and science to build scalable
+            projects.
+          </Text>
+        </S.AboutContainer>
+        <S.ServicesContainer></S.ServicesContainer>
+        <S.EventsAreaContainer></S.EventsAreaContainer>
+        <S.NewOnTheBlogContainer></S.NewOnTheBlogContainer>
       </S.Body>
     </S.Container>
   );

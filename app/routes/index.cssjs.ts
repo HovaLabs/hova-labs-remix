@@ -20,7 +20,15 @@ export const TopNav = styled("div", {
   zIndex: 1000,
 });
 
-export const Body = styled("div", {});
+export const Body = styled("div", {
+  marginLeft: "$xl",
+  marginRight: "$xl",
+  "> div": {
+    "&:not(:first-child)": {
+      marginTop: "$xl",
+    },
+  },
+});
 
 export const HeroContainer = styled("div", {
   width: "100%",
@@ -29,4 +37,24 @@ export const HeroContainer = styled("div", {
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
+});
+
+export const AboutContainer = styled("div", {
+  backgroundColor: "$surface1",
+  padding: "$xl",
+});
+
+export const ServicesContainer = styled("div", {
+  backgroundColor: "$surface1",
+  padding: "$xl",
+});
+
+export const EventsAreaContainer = styled("div", {
+  backgroundColor: "$surface1",
+  padding: "$xl",
+});
+
+export const NewOnTheBlogContainer = styled("div", {
+  backgroundColor: "$surface1",
+  padding: "$xl",
 });
