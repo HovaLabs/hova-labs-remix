@@ -21,3 +21,12 @@ export const TopNav = styled("div", {
 });
 
 export const Body = styled("div", {});
+
+export const HeroContainer = styled("div", {
+  width: "100%",
+  height: "400px",
+  overflow: "hidden",
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
+});

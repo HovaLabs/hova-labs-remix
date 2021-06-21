@@ -1,7 +1,8 @@
 import type { MetaFunction, LinksFunction, LoaderFunction } from "remix";
 import { useRouteData } from "remix";
 import * as S from "./index.cssjs";
-import { Text, theme } from "../design-system";
+import { Image, Text, theme } from "../design-system";
+import * as images from "../images";
 
 import stylesUrl from "../styles/index.css";
 
@@ -23,21 +24,9 @@ export default function Index() {
         <Text>Top Nav stuff here</Text>
       </S.TopNav>
       <S.Body>
-        <Text as="h1" font="titleLarge">
-          titleLarge
-        </Text>
-        <Text as="h2" font="titleMedium">
-          titleMedium
-        </Text>
-        <Text as="h3" font="titleSmall">
-          titleSmall
-        </Text>
-        <Text style={{ color: theme.colors.primary }}>
-          textPlain{" "}
-          <Text as="span" font="titleMedium">
-            ok now its bigger. <strong>Now its bolder.</strong>
-          </Text>
-        </Text>
+        <S.HeroContainer>
+          <Image src={images.hero} />
+        </S.HeroContainer>
       </S.Body>
     </S.Container>
   );
