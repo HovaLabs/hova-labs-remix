@@ -8,7 +8,7 @@ export const globalStyles = global({
     padding: 0,
     boxSizing: "border-box",
     fontFamily: "Oxygen, sans-serif",
-    transition: "padding 1s, margin 1s",
+    transition: "padding 1s, margin 1s, font-size 1s",
   },
   div: {
     alignItems: "stretch",
